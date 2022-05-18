@@ -1,0 +1,22 @@
+{
+  "name": "dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node ./contracts/js/compile.js",
+    "deploy": "node ./contracts/js/deploy.js",
+    "dev": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.8.13",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.7.3"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
